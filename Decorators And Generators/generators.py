@@ -25,6 +25,18 @@ def generator_function(num):
     for i in num:
         yield i * i
 output = generator_function(my_list)
+print(list(output))
 
-for i in output:
-    print(i,end=" - ")
+# generator comprehension
+sample = range(10+1)
+generator_comprehension = (loop**2 for loop in sample) # a generator object
+# Either loop througt it or cast it to a list and get the output
+
+'''
+for i in generator_comprehension:
+    print(i,end=' ')
+print()
+        ( OR )
+cast it to any collection data type
+print(list(generator_comprehension))
+'''

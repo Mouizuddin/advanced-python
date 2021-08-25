@@ -1,11 +1,11 @@
-        # First Class Function : Treat function just like anyother object or variable
+# First Class Function : Treat function just like anyother object or variable
 """First-class function
-A programming language is said to be First class function if it treats functions as 
+A programming language is said to be First class function if it treats functions as
 First class citizens
 
-First class citizens : 
-In a programming language is an entity which supports all the operations generally avaliable 
-to other entities, includes 
+First class citizens :
+In a programming language is an entity which supports all the operations generally avaliable
+to other entities, includes
 - assigned to a variable
 - returned from a function
 - include being passed as a argument
