@@ -52,9 +52,10 @@ string_from = "name_A-name_B-50000"
 # line 25 > created an other way of creting an object
 alternative_constructor = Employee.from_strings(string_from)
 print(alternative_constructor.first_name)
-new_record = "Mohammed-Mouizuddin-171061101078"
+new_record = "FIRST_NAME-LAST_NAMER-000000000"
 Employee.from_strings(new_record)
 print(new_record)
+
 # static
 import datetime
 # date_current = datetime.date.today()
